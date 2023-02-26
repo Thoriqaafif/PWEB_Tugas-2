@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warung Cak Budi</title>
+    <style>
+        header, nav, section, aside, footer, article, figure{
+            display:block;
+        }
+        body{
+            background-image: url("image/background.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Georgia, Times, serif;
+        }
+        .wrapper{
+            width:940px;
+            margin: 20px auto 20px auto;
+            border: 2px solid #000000;
+            background-color: #ffffff;
+        }
+        header{
+            height:80px;
+            background-color: #659dbd;
+            padding:30px 0px 10px 0px;
+        }
+        header h1{
+            text-align:center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight:bold;
+            color:#efefef;
+            width:auto;
+            height:60px;
+            margin:0px;
+        }
+        nav, footer{
+            clear:both;
+            color:white;
+            background-color: #daad86;
+            height:30px;
+        }
+        nav ul{
+            margin:0px;
+            padding: 5px 0px 5px 10px;
+        }
+        nav li{
+            display:inline;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        nav li a{
+            color:white;
+        }
+        nav li a:hover, nav li a.current{
+            color:#000000;
+        }
+        .course{
+            float:left;
+            width:659px;
+            border-right: 1px solid #eeeeee;
+        }
+        article{
+            clear:both;
+            overflow:auto;
+            width:100%;
+        }
+        hgroup{
+            margin-top:40px;
+        }
+        figure img{
+            float:left;
+            margin:0px 30px 0px 0px;
+            border:1px solid black;
+        }
+        aside{
+            background-color:#fbeec1;
+            float: right;
+            padding-left: 20px;
+            padding-right: 0px;
+            text-align: left;
+            border-left: 1px solid black;
+            width: 30%;
+        }
+        a{
+            color:#de6581;
+            text-decoration: none;
+        }
+        section{
+            float:left;
+            width:70%;
+            margin: 0 1.5%;
+        }
+        section h1{
+            margin:30px 0px 5px 20px;
+        }
+        h1, h2, h3{
+            font-weight:normal;
+        }
+        section h2{
+            margin: 10px 0px 5px 0px;
+            padding:0px;
+            color:#bc986a;
+        }
+        section h3{
+            margin:0px 0px 10px 0px;
+            color:#de6581;
+        }
+        aside h2{
+            color:#8d8741;
+        }
+        aside h3{
+            color:#f7ef8a;
+        }
+        footer{
+            font-size: 80%;
+            padding:7px 0px 0px 20px;
+        }
+        .container{
+            width:940px;
+            display:flex;
+            padding:0px 0px 0px 0px;
+        }
+        img{
+            float:left;
+            margin: 0px 20px 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Warung Cak Budi</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>|
+                    <li><a href="#Makanan">Makanan</a></li>|
+                    <li><a href="#Minuman">Minuman</a></li>|
+                    <li><a href="#Komentar">Komentar</a></li>|
+                    <li><a href="#Kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+        <section>
+            <!-- daftar makanan -->
+            <a name="Makanan">
+                <h1><u>Makanan</u></h1>
+                <!--Nasi Goreng-->
+                <article>
+                    <figure>
+                        <img src="image/nasi goreng.png" width="250" alt="Nasi Goreng"/>
+                    </figure>
+                    <hgroup>
+                        <h2>Nasi Goreng</h2>
+                        <h3>Rp 17.000</h3>
+                    </hgroup>
+                    <p></p>
+                </article>
+                <!--Tetelan-->
+                <a name="Tetelan">
+                <article>
+                    <figure>
+                        <img src="image/tetelan.png" width="250" alt="Nasi Tetelan"/>
+                    </figure>
+                    <hgroup>
+                        <h2> Nasi Tetelan </h2>
+                        <h3> Rp 15.000</h3>
+                    </hgroup>
+                    <p></p>
+                </article>
+                </a>
+                <!--Soto Ayam-->
+                <article>
+                    <figure>
+                        <img src="image/soto ayam.png" width="250" alt="Soto Ayam"/>
+                    </figure>
+                    <hgroup>
+                        <h2>Soto Ayam</h2>
+                        <h3>Rp 16.000</h3>
+                    </hgroup>
+                    <p></p>
+                </article>
+                <!--Rawon-->
+                <a name="Rawon">
+                <article>
+                    <figure>
+                        <img src="image/rawon.png" width="250" alt="Rawon"/>
+                    </figure>
+                    <hgroup>
+                        <h2>Rawon</h2>
+                        <h3>Rp 20.000</h3>
+                    </hgroup>
+                    <p></p>
+                </article>
+                </a>
+            </a>
+            <!-- daftar minuman -->
+            <a name="Minuman">
+                <h1><u>Minuman</u></h1>
+                <!--Es Teh-->
+                <article>
+                    <figure>
+                        <img src="image/Es Teh.png" width="250" alt="Es Teh"/>
+                    </figure>
+                    <hgroup>
+                        <h2> Es Teh </h2>
+                        <h3> Rp 5.000 </h3>
+                    </hgroup>
+                    <p></p>
+                </article>
+                <!--Es Jeruk-->
+                <a name="Es Jeruk">
+                    <article>
+                        <figure>
+                            <img src="image/es jeruk.png" width="250" alt="Es Jeruk"/>
+                        </figure>
+                        <hgroup>
+                            <h2>Es Jeruk</h2>
+                            <h3>Rp 7.000</h3>
+                        </hgroup>
+                        <p></p>
+                    </article>
+                </a>
+                <!--Kopi Susu-->
+                <article>
+                    <figure>
+                        <img src="image/kopi susu.png" width="250" alt="Kopi Susu"/>
+                    </figure>
+                    <hgroup>
+                        <h2>Kopi Susu</h2>
+                        <h3>Rp 10.000</h3>
+                    </hgroup>
+                    <p></p>
+                </article>
+                <!--Jus Alpukat-->
+                <a name="#Jus Alpukat">
+                    <article>
+                        <figure>
+                            <img src="image/jus alpukat.jpg" width="250" alt="Jus Alpukat"/>
+                        </figure>
+                        <hgroup>
+                            <h2>Jus Alpukat</h2>
+                            <h3>Rp 12.000</h3>
+                        </hgroup>
+                    </article>
+                </a>
+            </a>
+        </section>
+        <aside>
+            <!-- Menu Favorit -->
+            <h2>Menu Favorit</h2>
+            <h3><a href="#Tetelan">Nasi Tetelan</a></h3>
+            <h3><a href="#Rawon">Rawon</a></h3>
+            <h3><a href="#Es Jeruk">Es Jeruk</a></h3>
+            <h3><a href="#Jus Alpukat">Jus Alpukat</a></h3>
+            <hr color="black">
+            <a name="Kontak">
+                <h2>Kontak</h2>
+                <img src="image/tlp.png" width="25px"> <h4>031123345</h4>
+                <img src="image/email.png" width="25px"> <h4>cakbudi@gmail.com</h4>
+            </a>
+        </aside>
+        </div>
+        <!--Kontak-->
+        <div id="kontak">
+        </div>
+        <footer>
+            &copy; 2023 Warung Cak Budi            
+        </footer>
+    </div>
+</body>
+</html>
